@@ -1,0 +1,19 @@
+{
+  "name": "ciklum",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axi-ua/ciklum.git"
+  },
+  "author": "Dalekyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Axi-ua/ciklum/issues"
+  },
+  "homepage": "https://github.com/Axi-ua/ciklum#readme"
+}
