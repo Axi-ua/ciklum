@@ -1,0 +1,22 @@
+{
+    "homePage": {
+        "signIn": ".HeaderMenu a[href*=login]"
+    },
+    "signInPage": {
+        "logo": ".header-logo",
+        "header": ".auth-form-header h1",
+        "loginLabel": ".auth-form-body label[for=login_field]",
+        "loginField": "#login_field",
+        "passwordLabel": ".auth-form-body label[for=password]",
+        "forgotPassLink": ".auth-form-body label[for=password] a",
+        "passwordField": "#password",
+        "signInBtn": ".auth-form-body [type=submit]",
+        "createAccLink": ".create-account-callout a",
+        "terms": ".footer ul li:nth-child(1) a",
+        "privacy": ".footer ul li:nth-child(2) a",
+        "security": ".footer ul li:nth-child(3) a",
+        "contact": ".footer ul li:nth-child(4) a",
+        "alert": "form .flash-error",
+        "closeAlertBtn": "form .flash-error button"
+    }
+}

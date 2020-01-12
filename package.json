@@ -4,7 +4,11 @@
   "description": "test task",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "open": "cypress open",
+    "runChrome": "cypress run --browser chrome --headless",
+    "runCanary": "cypress run --browser canary --headless",
+    "runChromium": "cypress run --browser chromium --headless"
+
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/Axi-ua/ciklum/issues"
   },
-  "homepage": "https://github.com/Axi-ua/ciklum#readme"
+  "homepage": "https://github.com/Axi-ua/ciklum#readme",
+  "dependencies": {
+    "cypress": "^3.8.2",
+    "cypress-file-upload": "^3.5.3",
+    "cypress-multi-reporters": "^1.2.3",
+    "mocha": "^7.0.0",
+    "mochawesome": "^4.1.0"
+  }
 }
