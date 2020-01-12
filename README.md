@@ -1,8 +1,8 @@
 # ciklum
 
 1. Commands for test runing:
-    npm run runChrome
-    npm run runCanary
-    npm run runChromium
+    <br/> npm run runChrome
+    <br/> npm run runCanary
+    <br/> npm run runChromium
 
 2. Reports folder: cypress/reports/mochawesome/
